@@ -1,0 +1,41 @@
+sensum
+======
+
+Idea
+----
+
+To allow people that share the same interests to interact when close to one another.
+
+Overview
+--------
+
+1. User informs his interests;
+By using hashtags, the user records his interests. These hashtags are stored in a server.
+
+2. When close to other users that share the same interest, he is notified;
+The application is running in the background, in a smartphone. The user has GPS, bluetooth, wifi, or any other kind of technology that allows for localization. When it detects another user in the vincinity (methods: determines the current place through GPS, queries the server, receives list of users that reported the same place recently; does bluetooth scan, sends located bluetooth ids to server, receives list of users in the vincinity logged with these ids; etc.), the smart phone beeps, or vibrates. Presents the user name and the shared interest.
+
+3. User decides to interact (or not) with the other user.
+In case he decides not to ignore, the user can trigger some kind of interaction with the other user, like sending a message, a photo/image, inform some kind of gesture he will fo to be identified (wave, stand up, etc.). The interaction can be automatic (play the soccer team anthem, a music from an artist, etc.).
+
+Some more use case scenarios
+----------------------------
+
+* Allow queries in the server database, enabling people to locate others with some hashtag, even not being close to then;
+
+* People that work for the same company, or unit, or department can use a tag to identify themselves (eg. #acmecorp, #acmeny). The notification could show their business cards;
+
+* People cheering for the same team going to the stadium could be aware of one another. The anthem of the team could play, on both phones, when they get close;
+
+* Some more useful hashtags could be tough about, like: #electrician, #plumber, #tradebooks, #buyingcar, #single, etc.);
+
+* News related to the hashtag could be automatically delievered to the user.
+
+Obstacles
+---------
+
+* Precision of localization technologies: GPS, when in closed environments, has bad precision; the ability to use wifi for localization needs to be checked in more detail;
+
+* Batery: for localization to work, one or more of these technologies needs to be enabled. To use all of them simultaneously, batery consumption is high;
+
+* Possible privacy problems.
